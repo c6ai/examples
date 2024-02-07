@@ -42,7 +42,7 @@ resources:
         type: UserAssigned
         userAssignedIdentities:
           - ${identity.id}
-      kubernetesVersion: 1.26.3
+      kubernetesVersion: 1.28.3
       dnsPrefix: dns-prefix
       enableRBAC: true
       agentPoolProfiles: 
